@@ -44,7 +44,7 @@ $(function () {
         }else {
             $("#confirmWarning").css("visibility" , "hidden");
             $("#confirm_password").removeClass("error");}
-            if(!($("#email").val()=="")){
+            if(!($("#email").val())){
                 $("#email").addClass("error");
                 $("#emailwarning").css("visibility" , "visible");
             }else{
