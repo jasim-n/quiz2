@@ -44,6 +44,13 @@ $(function () {
         }else {
             $("#confirmWarning").css("visibility" , "hidden");
             $("#confirm_password").removeClass("error");}
+            if(!$("#warning").val){
+                $("#emailwarning").addClass("error");
+                $("#emailwarning").css("visibility" , "visible");
+            }else{
+                $("#emailwarning").removeClass("error");
+                $("#emailwarning").css("visibility" , "hidden");
+            }
             e.preventDefault();
     
 }
