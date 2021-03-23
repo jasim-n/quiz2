@@ -28,7 +28,7 @@ $(function () {
     }}
     if (password.length < 8) {
         $("#password").addClass("error");
-        $("#passwordWarning").html("password length should be least 8 characters ");
+        $("#passwordWarning").html("passwords length should be least 8 characters ");
         $("#passwordWarning").css("visibility" , "visible");
 
         e.preventDefault();
